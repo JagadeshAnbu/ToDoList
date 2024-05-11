@@ -1,0 +1,88 @@
+
+.home{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #ff8585;
+  height:700px;
+  position: relative;
+}
+.home h2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-top: 150px;
+  color: #ffebeb;
+  font-weight: 1000;
+  font-style: normal;
+  
+}
+.create_form{
+  margin-top: 10px;
+}
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  border-color: #ff8585;
+  border-radius: 5px;
+}
+.create_form button{
+  padding: 10px;
+  background-color: #ffebeb;
+  color: #ff5757;
+  cursor: pointer;
+  border-color: #ff8585;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.task{
+  display: flex;
+  width: 345px;
+  justify-content: space-between;
+  background-color: #ff007b;
+  color: #ffebeb;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 5px;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+.checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span{
+  margin: 0px 5px 0px 4px;
+}
+.task div .icon{
+  cursor: pointer;
+}
+.icon-trash{
+  margin-top: 9px;
+  cursor: pointer;
+}
+.toaster {
+  position: absolute;
+  top: 20px;
+  color: white;
+  padding: 10px 20px;
+  z-index: 9999;
+  font-size: larger;
+}
+
+
+
+
+
+
+
+
