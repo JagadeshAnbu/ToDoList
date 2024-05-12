@@ -1,88 +1,82 @@
-
 .home{
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background-color: #ff8585;
-  height:700px;
+  background-color: #f9f9f9; /* Soft light gray background */
+  height: 700px;
   position: relative;
 }
 .home h2{
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 30px;
-  margin-top: 150px;
-  color: #ffebeb;
-  font-weight: 1000;
-  font-style: normal;
-  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 36px; /* Larger font size */
+  margin-top: 10%;
+  color: #333; /* Dark gray text */
+  font-weight: bold; /* Slightly bolder text */
 }
 .create_form{
-  margin-top: 10px;
+  margin-top: 20px; /* Increased top margin */
 }
 .create_form input{
   width: 300px;
-  padding: 10px;
-  border-bottom: 2px solid;
+  padding: 12px; /* Increased padding */
+  border: 1px solid #ccc; /* Light gray border */
   outline: none;
-  border-color: #ff8585;
-  border-radius: 5px;
+  border-radius: 8px; /* Rounded corners */
 }
 .create_form button{
-  padding: 10px;
-  background-color: #ffebeb;
-  color: #ff5757;
+  padding: 12px 20px; /* Increased padding */
+  background-color: #ff7e67; /* Coral color for contrast */
+  color: #fff; /* White text */
   cursor: pointer;
-  border-color: #ff8585;
-  border-radius: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed font */
+  font-size: 16px; /* Increased font size */
+  font-weight: bold; /* Bold text */
 }
 .task{
   display: flex;
-  width: 345px;
+  width: 350px; /* Increased width */
   justify-content: space-between;
-  background-color: #ff007b;
-  color: #ffebeb;
-  height: 35px;
-  padding: 2px 5px 2px 5px;
-  margin-top: 5px;
+  background-color: #fff; /* White background */
+  color: #333; /* Dark gray text */
+  height: 50px; /* Increased height */
+  padding: 15px; /* Increased padding */
+  margin-top: 10px; /* Increased top margin */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 .checkbox{
   display: flex;
   align-items: center;
 }
-
 .line_through {
   text-decoration: line-through;
 }
 .checkbox .icon{
-  margin-right: 5px;
-  font-size: 15px;
+  margin-right: 8px; /* Increased margin */
+  font-size: 18px; /* Larger icon */
 }
-
 .task div span{
-  margin: 0px 5px 0px 4px;
+  margin-left: 8px; /* Adjusted margin */
+  font-size: 16px; /* Slightly larger font */
 }
 .task div .icon{
   cursor: pointer;
 }
 .icon-trash{
-  margin-top: 9px;
+  margin-top: 12px; /* Adjusted margin */
   cursor: pointer;
 }
 .toaster {
   position: absolute;
   top: 20px;
-  color: white;
+  color: #fff;
   padding: 10px 20px;
   z-index: 9999;
   font-size: larger;
+  background-color: #4CAF50; /* Green background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
-
-
-
-
-
-
-
-
